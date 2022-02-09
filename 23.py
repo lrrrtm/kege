@@ -19,16 +19,14 @@ def f(nc, kc):
 print(f(10,33))
 
 #количество чисел
-# def f(nc, kc, step):
-#     if nc > kc or step > 4:
-#         return 0
-#     if nc == kc:
-#         return 1
-#     if nc < kc:
-#         return f(nc*5, kc, step + 1) + f(nc//3, kc, step + 1)
-#
-# k, nc, step = 0, 81, 0
-# for kc in range(81, 1000):
-#     if f(nc, kc, step):
-#         k += 1
-# print(k)
+lst = set()
+def f(n,k):
+    if k == 5:
+        lst.add(n)
+        return 0
+    f(n+4, k +1)
+    f(n*2, k + 1)
+
+f(2,0)
+print(lst)
+print(len(lst))
