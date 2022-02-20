@@ -1,7 +1,7 @@
 S = 20
 Q = 0
 D = [0] * S
-F = open("test.txt", "r")
+F = open("input7.txt", "r")
 N = int(F.readline())
 for i in range(1, N+1):
     x = int(F.readline())
