@@ -1,4 +1,4 @@
-f = open("24.3.txt", "r")
+f = open("source/24.3.txt", "r")
 data = f.readlines()
 
 count = 0

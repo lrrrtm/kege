@@ -1,4 +1,4 @@
-with open("11.txt") as f:
+with open("source/24.1.txt") as f:
     data = f.readline()
 
 
