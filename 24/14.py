@@ -14,3 +14,5 @@ for a in range(len(data)-4):
         count += 1
 
 print(count)
+
+#ans: 4904
