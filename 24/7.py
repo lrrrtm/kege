@@ -13,3 +13,5 @@ for a in range(len(data)):
 maxi = max(maxi, count)
 
 print(maxi)
+
+#ans: 16

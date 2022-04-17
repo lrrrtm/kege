@@ -11,3 +11,5 @@ for a in range(len(data) - 1):
     else:
         print(index)
         break
+
+#ans: 40450

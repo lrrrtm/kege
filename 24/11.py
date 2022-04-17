@@ -11,11 +11,12 @@ for a in data:
 for a in data:
     if a.count("G") == countG:
         str = a[:-1]
+        break
 
 dict = {a: 0 for a in "QWERTYUIOPASDFGHJKLZXCVBNM"}
 
 for a in range(len(str)):
-    dict[str[a]] +=1
+    dict[str[a]] += 1
 
 maxi = 0
 for a in "QAZWSXEDCRFVTGBYHNUJMIKOLP":
@@ -23,3 +24,5 @@ for a in "QAZWSXEDCRFVTGBYHNUJMIKOLP":
 
 print(maxi)
 print(dict)
+
+#ans: T

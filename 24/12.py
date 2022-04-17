@@ -14,3 +14,5 @@ for a in range(len(data)):
         count = 0
 
 print(maxi)
+
+#ans: 169

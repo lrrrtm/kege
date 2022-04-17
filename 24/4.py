@@ -9,6 +9,6 @@ for a in range(1, len(data) - 1):
         start, end = end, a
         maxi = max(maxi, (end - start))
 
-
-
 print(maxi)
+
+#ans: 28

@@ -8,3 +8,5 @@ for a in data:
         count += 1
 
 print(count)
+
+#ans: 480
