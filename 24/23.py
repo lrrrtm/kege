@@ -20,3 +20,5 @@ for a in range(len(line) - 1):
     dict[line[a]] += 1
 
 print(dict)
+
+#ans: V
