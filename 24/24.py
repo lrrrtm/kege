@@ -5,7 +5,7 @@ maxi, count = 0, 0
 
 for a in range(len(data)-1):
     if data[a] in "PQRS" and data[a] + data[a+1] != "PP":
-        count +=1
+        count += 1
     else:
         maxi = max(maxi, count)
         count = 0

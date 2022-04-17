@@ -2,7 +2,7 @@ with open("source/24.12.txt") as f:
     data = f.readline()
 
 
-count, maxi = 0, 0
+count = maxi = 0
 
 for a in range(len(data)):
     if (data[a] == "D" and count % 3 == 0) or (data[a] == "A" and count % 3 == 1) or (data[a] == "F" and count % 3 == 2):

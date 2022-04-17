@@ -19,5 +19,4 @@ for a in range(len(data) - 1):
             if count >= 12:
                 countAll += 1
             count, start = 0, False
-    print(data[a], count, start)
 print(countAll)

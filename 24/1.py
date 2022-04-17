@@ -1,10 +1,8 @@
 with open("source/24.1.txt") as f:
     data = f.readline()
 
+maxi = count = 0
 
-maxi = 0
-
-count = 0
 for a in range(len(data)-1):
     if data[a] != data[a+1]:
         count += 1
@@ -12,6 +10,5 @@ for a in range(len(data)-1):
         maxi = max(maxi, count)
         count = 0
 maxi = max(maxi, count)
-
 
 print(maxi)

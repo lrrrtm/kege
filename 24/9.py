@@ -1,7 +1,7 @@
 with open("source/24.9.txt") as f:
     data = f.readline()
 
-maxi, count = 0, 0
+maxi = count = 0
 
 for a in data:
     if a in "BCDF":
@@ -11,4 +11,5 @@ for a in data:
         count = 0
 
 maxi = max(maxi, count)
+
 print(maxi)

@@ -11,6 +11,6 @@ for a in range(len(data)-4):
             fl = False
             break
     if fl:
-        count +=1
+        count += 1
 
 print(count)
