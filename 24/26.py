@@ -17,4 +17,4 @@ for line in data:
         print(maxi)
 
 
-#ans: 982, 988, 1004, 986, 1004, 974
+#ans: 1004
