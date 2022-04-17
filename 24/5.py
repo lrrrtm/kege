@@ -7,8 +7,10 @@ for a in range(len(data) - 1):
     if data[a] == 'B':
         dict[data[a+1]] += 1
 
-maxi = 0
+4-5maxi, chr = 0, ""
 for a in "QAZWSXEDCRFVTGBYHNUJMIKOLP":
-    maxi = max(maxi, dict[a])
+    if dict[a] > maxi:
+        maxi = dict[a]
+        chr = a
 
-print(maxi)
+print(maxi, chr)
