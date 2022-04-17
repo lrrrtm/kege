@@ -1,7 +1,6 @@
 with open("source/24.13.txt") as f:
     data = f.readline()
 
-
 count = 0
 
 for a in range(len(data)-2):
@@ -11,3 +10,5 @@ for a in range(len(data)-2):
         count += 1
 
 print(count)
+
+#ans: 1280
