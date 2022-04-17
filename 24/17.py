@@ -9,3 +9,5 @@ for a in range(len(data)-2):
         count += 1
 
 print(count)
+
+#ans: 31348

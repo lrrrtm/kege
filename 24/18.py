@@ -8,3 +8,5 @@ for a in range(1, len(data)-3):
         count += 1
 
 print(count)
+
+#ans: 2198
