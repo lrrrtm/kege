@@ -4,7 +4,7 @@ def simple(n):
             return  False
     return True
 
-for cur in range(485617, 485617+50):
+for cur in range(485617, 529678+1):
     arr = [1]
     for div in range(2, int(cur**0.5) + 1):
         if cur % div == 0:
@@ -15,4 +15,11 @@ for cur in range(485617, 485617+50):
         for x in arr:
             if x % 10 == a:
                 res.append(x)
-        print(a, res)
+        if len(res) == 3:
+            #print(cur, a, res)
+            q = 1
+            for s in res:
+                q *= s
+            if q == cur and (max(res) - min(res)) < 100:
+                print(cur, a, res)
+
